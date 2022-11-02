@@ -1,0 +1,47 @@
+//Returns a list of genes connected to ERP27. Replace gene name for different gene. MolecularFunction is a node option. Export to .csv
+MATCH p1 = (:Gene {name: "ERP27"})--(g:Compound)
+RETURN g.name LIMIT 6
+
+//Other node options (Replace for different nodes):
+BiologicalProcess 
+CellularComponent
+Compound
+Gene
+MolecularFunctionPathway
+PharmacologicClass
+SideEffect
+Symptom
+
+
+//Input your nodes and see what connects
+MATCH p0 = (:Gene {name: "ART4"})
+MATCH p1 = (:Gene {name: "RERG"})
+MATCH p2 = (:Gene {name: "EPS8"})
+MATCH p3 = (:Gene {name: "EMP1"})
+MATCH p4 = (:Gene {name: "TP53"})
+MATCH p5 = (:Disease {name: 'breast cancer'})
+RETURN [p0,p1,p2,p3,p4,p5]
+
+
+//Return drawing of genes inbetween source and target 
+MATCH p1 = (source:Gene)--(gene:Gene)--(target:Disease)
+WHERE source.name = 'TP53'
+  AND target.name = 'breast cancer'
+  RETURN p1 LIMIT 25
+
+//Return list of genes inbetween source and target (for .csv exporting) 
+MATCH p1 = (source:Gene)--(gene:Gene)--(target:Disease)
+WHERE source.name = 'TP53'
+  AND target.name = 'breast cancer'
+  RETURN gene.name LIMIT 25
+
+//Information on syntax 
+--	=	Direct connection
+->	=	Single direction to node
+<-	=	Single direction from node 
+-[rel]-		=	put inbetween two nodes, returns any relationship type (edges)
+()	= returns all nodes of any type 
+(:Gene) =	Returns all genes
+(:Gene {name: "ERP27"})   = Return specific gene with name 
+(:Disease)  =  Returns all diseases 
+(:Disease {name: 'breast cancer'})  = Return specific disease with name 
