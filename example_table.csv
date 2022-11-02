@@ -1,0 +1,40 @@
+﻿Gene,Compound,BiologicalProcess,MolecularFunction
+ADAMTS20,[],"[positive regulation of cell differentiation,positive regulation of epithelial cell differentiation,positive regulation of melanocyte differentiation]","[metalloendopeptidase activity,peptidase activity, acting on L-amino acid peptides,peptidase activity]"
+ANO6,[],"[positive regulation of monocyte chemotaxis,regulation of leukocyte migration,divalent metal ion transport]","[cation transmembrane transporter activity,gated channel activity,passive transmembrane transporter activity]"
+ASB8,[],"[protein ubiquitination,protein modification by small protein conjugation,protein modification by small protein conjugation or removal]",[]
+ASIC1,"[Diclofenac,Amiloride]","[associative learning,sensory perception of taste,regulation of neurotransmitter secretion]","[cation channel activity,substrate-specific channel activity,ion transmembrane transporter activity]"
+ATF1,"[Podofilox,Mycophenolic acid,Procaterol,Mebendazole,Menadione]","[positive regulation of defense response,toll-like receptor 5 signaling pathway,immune response-activating signal transduction]","[RNA polymerase II regulatory region DNA binding,transcription regulatory region DNA binding,regulatory region nucleic acid binding]"
+ATF7,[],"[viral process,symbiosis, encompassing mutualism through parasitism,negative regulation of transcription from RNA polymerase II promoter]","[mitogen-activated protein kinase binding,regulatory region DNA binding,regulatory region nucleic acid binding]"
+BCDIN3D,[],"[RNA methylation,posttranscriptional regulation of gene expression,miRNA metabolic process]","[RNA methyltransferase activity,O-methyltransferase activity,transferase activity, transferring one-carbon groups]"
+CALCOCO1,"[Estradiol,Daunorubicin,Dactinomycin,Simvastatin,Pitavastatin]","[Wnt signaling pathway,intracellular receptor signaling pathway,intracellular steroid hormone receptor signaling pathway]","[transcription coactivator activity,chromatin binding,ligand-dependent nuclear receptor transcription coactivator activity]"
+CERS5,[],"[membrane lipid biosynthetic process,cellular lipid metabolic process,sphingolipid metabolic process]","[transferase activity, transferring acyl groups,N-acyltransferase activity,sphingosine N-acyltransferase activity]"
+CSAD,[L-Cysteine],"[single-organism catabolic process,sulfur compound metabolic process,sulfur compound biosynthetic process]","[cofactor binding,pyridoxal phosphate binding,carboxy-lyase activity]"
+DBX2,[],[],[]
+DDX23,[],"[RNA splicing,RNA processing,mRNA cis splicing, via spliceosome]","[RNA-dependent ATPase activity,ATPase activity,nucleoside-triphosphatase activity]"
+DIP2B,[],[],[transcription factor binding]
+FAM186A,[],[],[]
+FAM186B,[],[],[]
+FKBP11,[Cyclosporine],"[chaperone-mediated protein folding,peptidyl-proline modification,protein folding]","[macrolide binding,drug binding,cis-trans isomerase activity]"
+FMNL3,[],"[regulation of cell shape,cytoskeleton organization,actin cytoskeleton organization]","[small GTPase binding,Rho GTPase binding,actin binding]"
+GPD1,[],"[regulation of carbohydrate catabolic process,oxidation-reduction process,cellular response to cAMP]","[oxidoreductase activity,cofactor binding,oxidoreductase activity, acting on the CH-OH group of donors, quinone or similar compound as acceptor]"
+GXYLT1,[],"[glycoprotein metabolic process,sulfur compound metabolic process,protein O-linked glycosylation]","[transferase activity, transferring glycosyl groups,xylosyltransferase activity,UDP-glycosyltransferase activity]"
+IRAK4,"[Sunitinib,Vandetanib,Bosutinib,Gefitinib]","[toll-like receptor 5 signaling pathway,innate immune response-activating signal transduction,positive regulation of smooth muscle cell proliferation]","[protein kinase activity,cytokine receptor binding,kinase activity]"
+LALBA,[],"[response to other organism,cellular carbohydrate biosynthetic process,disaccharide metabolic process]","[calcium ion binding,UDP-glycosyltransferase activity,UDP-galactosyltransferase activity]"
+LARP4,[],"[cytoskeleton organization,regulation of anatomical structure morphogenesis,regulation of cell morphogenesis]",[]
+LIMA1,[],"[regulation of actin filament length,negative regulation of cytoskeleton organization,ruffle organization]","[actin binding,cytoskeletal protein binding,protein complex binding]"
+MCRS1,"[Cytarabine,Everolimus]","[DNA repair,DNA metabolic process,histone modification]","[H4 histone acetyltransferase activity,N-acetyltransferase activity,enzyme regulator activity]"
+NCKAP5L,[],"[cellular component disassembly,cytoskeleton organization,microtubule polymerization or depolymerization]",[]
+NELL2,[],"[cellular homeostasis,neuron cellular homeostasis,protein homooligomerization]","[protein kinase C binding,kinase binding,glycosaminoglycan binding]"
+PCBP2,[],"[proteolysis involved in cellular protein catabolic process,mRNA splicing, via spliceosome,protein catabolic process]","[ubiquitin-like protein ligase binding,ubiquitin protein ligase binding]"
+PPHLN1,[],"[epidermal cell differentiation,skin development,epithelial cell differentiation]",[]
+PRPF40B,[],"[mRNA processing,RNA splicing,RNA splicing, via transesterification reactions]",[]
+PUS7L,"[Everolimus,Quinacrine]","[tRNA processing,pseudouridine synthesis,RNA modification]","[isomerase activity,pseudouridine synthase activity,intramolecular transferase activity]"
+SCAF11,[],"[cellular macromolecular complex assembly,mRNA metabolic process,ribonucleoprotein complex assembly]",[]
+SLC11A2,"[Podofilox,Mitomycin,Vinblastine,Quinacrine,Levorphanol]","[heme metabolic process,positive regulation of programmed cell death,inorganic ion transmembrane transport]","[protein transporter activity,P-P-bond-hydrolysis-driven transmembrane transporter activity,macromolecule transmembrane transporter activity]"
+SLC48A1,"[Vitamin A,Cerulenin,Gemcitabine,Temsirolimus,Afatinib]","[nitrogen compound transport,iron coordination entity transport,cofactor transport]","[cofactor transporter activity,heme transporter activity]"
+SMAGP,[],"[homophilic cell adhesion via plasma membrane adhesion molecules,cell-cell adhesion,cell recognition]","[protein homodimerization activity,cell adhesion molecule binding]"
+TARBP2,[],"[regulation of response to external stimulus,growth,regulation of viral genome replication]","[protein homodimerization activity,siRNA binding,pre-miRNA binding]"
+TFCP2,[],[],[protein C-terminus binding]
+TWF1,[],"[regulation of actin filament-based process,regulation of protein complex assembly,negative regulation of protein complex disassembly]","[cytoskeletal protein binding,phosphatidylinositol binding,phosphatidylinositol-4,5-bisphosphate binding]"
+ZCRB1,[],"[mRNA metabolic process,RNA splicing, via transesterification reactions with bulged adenosine as nucleophile,mRNA splicing, via spliceosome]",[]
+ZNF740,[],[],[]

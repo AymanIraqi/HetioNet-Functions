@@ -1,0 +1,27 @@
+# LINK: https://neo4j.het.io/browser/ 
+
+## NOTE: REPLACE WITH YOUR GENES IN THE AFTER THE UNWIND example: UNWIND ["yourgene1","yourgene2","yourgene3"] as text ##
+
+#####  THIS FUNCTION WILL GIVE YOU YOUR GENES RELATIONSHIPS IN AN EXCEL TABLE FORMAT #####
+
+UNWIND ["AAAS","AMIGO2","ANKRD33","ATG101","CCDC65","CELA1","CSRNP2","DAZAP2","DDN","IGFBP6","KCNH3","KRT1","KRT18","KRT2","KRT4","KRT5","KRT6A","KRT6B","KRT7","KRT71","KRT72","KRT73","KRT75","KRT76","KRT77","KRT78","KRT79","KRT8","KRT80","KRT81","KRT82","KRT83","KRT84","KRT86","LETMD1","MAP3K12","SLC38A4","SPATS2","YAF2"] as text
+MATCH (g:Gene) WHERE g.name = text
+OPTIONAL MATCH (g)--(c:Compound)
+WITH g,collect(c.name)[..5] as comp, text
+OPTIONAL MATCH (g)--(b:BiologicalProcess)
+WITH g, collect(b.name)[..3] as bio, comp, text
+OPTIONAL MATCH (g)--(m:MolecularFunction)
+RETURN text as Gene,comp as Compound,bio as BiologicalProcess,collect(m.name)[..3] as MolecularFunction
+
+
+##### THIS FUNCTION WILL GIVE YOU YOUR GENES RELATIONSHIPS IN A NEO4J GRAPH FORMAT #####
+
+UNWIND ["AAAS","AMIGO2","ANKRD33","ATG101","CCDC65","CELA1","CSRNP2","DAZAP2","DDN","IGFBP6","KCNH3","KRT1","KRT18","KRT2","KRT4","KRT5","KRT6A","KRT6B","KRT7","KRT71","KRT72","KRT73","KRT75","KRT76","KRT77","KRT78","KRT79","KRT8","KRT80","KRT81","KRT82","KRT83","KRT84","KRT86","LETMD1","MAP3K12","SLC38A4","SPATS2","YAF2"] as text
+MATCH (g:Gene) WHERE g.name = text
+OPTIONAL MATCH (g)--(c:Compound)
+WITH g,collect(c)[..5] as comp, text
+OPTIONAL MATCH (g)--(b:BiologicalProcess)
+WITH g, collect(b)[..3] as bio, comp, text
+OPTIONAL MATCH (g)--(m:MolecularFunction)
+RETURN g,comp as Compound,bio as BiologicalProcess,collect(m)[..3] as MolecularFunction
+
